@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="demo.nopcommerce.com test">
+    <parameter name="useCloudEnv" value="false"></parameter>
+    <parameter name="envName" value="browserstack"></parameter>
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="osVersion" value="10"></parameter>
+    <parameter name="browserVersion" value="110"></parameter>
+
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="url" value="https://demo.nopcommerce.com/"></parameter>
+
+    <test name="kamelTest ">
+
+        <classes>
+            <class name="com.nopcommerce.RegisterTest"></class>
+             <class name="com.nopcommerce.LoginTest"></class>
+              <class name="com.nopcommerce.InvalidCredentialsTest"></class>
+              <class name="com.nopcommerce.AppTest"></class>
+             <class name="com.nopcommerce.CheckOutTest"></class>
+            <!-- <class name="com.nopcommerce.SearchTest"></class>
+             <class name="com.nopcommerce.ReviewTest"></class>
+             <class name="com.nopcommerce.AddressTest"></class>
+             <class name="com.nopcommerce.ElectronicsTest"></class>
+             <class name="com.nopcommerce.UsefulInfoTest"></class>-->
+
+        </classes>
+
+    </test>
+</suite>
