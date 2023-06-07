@@ -18,11 +18,7 @@
               <class name="com.nopcommerce.InvalidCredentialsTest"></class>
               <class name="com.nopcommerce.AppTest"></class>
              <class name="com.nopcommerce.CheckOutTest"></class>
-            <!-- <class name="com.nopcommerce.SearchTest"></class>
-             <class name="com.nopcommerce.ReviewTest"></class>
-             <class name="com.nopcommerce.AddressTest"></class>
-             <class name="com.nopcommerce.ElectronicsTest"></class>
-             <class name="com.nopcommerce.UsefulInfoTest"></class>-->
+           <class name="com.nopcommerce.SearchTest"></class>
 
         </classes>
 
